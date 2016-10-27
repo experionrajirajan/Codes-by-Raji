@@ -5,9 +5,7 @@ class Fact
 	{  
 		int i,fact=1,n; 
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-    
-
-		System.out.println("Enter a number");	
+    		System.out.println("Enter a number");	
     		n=Integer.parseInt(br.readLine()); 
 		for(i=1;i<=n;i++)
 		{    
